@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @font-face {
+        font-family: "Poppins", sans-serif;
+        src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;800&display=swap");
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          place-holder="Enter city name"
+          class="search-bar"
+          id="search-bar"
+          spellcheck="false"
+        />
+        <button><img src="images/icons8-search-90.png" /></button>
+      </div>
+      <div class="error">Invalid City name</div>
+      <div class="weather">
+        <img src="images/icons8-clouds-96.png" class="weather-icon" alt="" />
+        <h2 class="temp">22°c</h2>
+        <h3 class="city">New York</h3>
+        <div class="details">
+          <div class="col">
+            <img src="images/icons8-wet-96.png" />
+            <div>
+              <p class="humidity">50%</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/icons8-wind-96.png" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
